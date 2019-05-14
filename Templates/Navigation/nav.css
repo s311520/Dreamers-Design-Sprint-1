@@ -1,1 +1,60 @@
+nav {
+    width: 100%;
+    background: linear-gradient(to right, #009688, #4caf50);
+}
 
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover {
+    background: linear-gradient(to right,  #b8b894, #ccccb3);
+}
+
+ul li a {
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #001f44;
+    text-align: left;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width:760px) {
+    .toggle {
+        display: block;
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+    }
+
+    ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .active {
+        display: block;
+    }
+}﻿
