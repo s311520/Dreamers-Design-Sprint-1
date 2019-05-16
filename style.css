@@ -151,6 +151,43 @@ a{
   text-decoration: none;
   outline: none;
 }
+
+body {
+
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebarnav  {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: inherit;
+  height: 75%;
+  overflow: auto;
+}
+
+.sidebarnav a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.sidebarnav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  border: 80px;
+}
+
+
 .footer-main{
   width: 100%;
   height: auto;
