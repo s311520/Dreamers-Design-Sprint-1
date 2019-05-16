@@ -246,3 +246,8 @@ a{
 .footer-bottom p a:hover{
   color: ##b8b894;
 }
+@media (max-width:760px){
+  .footer-main{
+
+  }
+}
