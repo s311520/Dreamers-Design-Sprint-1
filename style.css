@@ -164,3 +164,8 @@ a{
   height: auto;
   margin: auto;
 }
+.footer-social ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
