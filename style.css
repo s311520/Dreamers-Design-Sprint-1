@@ -189,3 +189,14 @@ a{
     background: #b8b894;
     transform: scale(1.4) rotate(10deg);
   }
+  .footer-menu{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer-menu ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
