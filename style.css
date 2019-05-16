@@ -140,7 +140,8 @@ nav ul li a {
 
 
   /*css for footer*/
-  
+
+
   *{
   margin: 0px;
   padding: 0px;
@@ -149,3 +150,12 @@ nav ul li a {
 a{
   text-decoration: none;
   outline: none;
+}
+.footer-main{
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+  background: #4caf50;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+}
