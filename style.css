@@ -177,3 +177,11 @@ a{
   border-radius: 100%;
   background: lightblue;
 }
+.footer-social ul li a{
+  color: #272727;
+  font-size: 25px;
+  display: block;
+}
+.footer-social ul li a i{
+  line-height: 50px;
+}
