@@ -221,3 +221,10 @@ a{
   background: lightblue;
   padding: 8px;
 }
+.footer-bottom p{
+  font-family: arial;
+  font-size:14px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
