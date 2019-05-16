@@ -200,3 +200,14 @@ a{
   padding: 0px;
   text-align: center;
 }
+.footer-menu ul li{
+  display: inline-block;
+  margin: 0px 15px;
+}
+.footer-menu ul li a{
+  font-family: arial;
+  font-size: 14px;
+  font-weight:600;
+  color: #fff;
+  text-transform: uppercase;
+}
