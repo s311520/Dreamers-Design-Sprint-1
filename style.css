@@ -58,7 +58,7 @@ nav ul li a {
     .active {
         display: block;
     }
-  
+
 }﻿
 /*  For Video Box */
 .Rvideo-box
@@ -137,3 +137,15 @@ nav ul li a {
   li{
     margin: 5px 0;
   }
+
+
+  /*css for footer*/
+  
+  *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  outline: none;
