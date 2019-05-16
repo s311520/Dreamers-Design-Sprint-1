@@ -1,4 +1,65 @@
+/*For New navigation Bar */
+nav {
+    width: 100%;
+    background: linear-gradient(to right, #009688, #4caf50);
+}
 
+nav ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li:hover {
+    background: linear-gradient(to right,  #b8b894, #ccccb3);
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #001f44;
+    text-align: left;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width:760px) {
+    .toggle {
+        display: block;
+    }
+
+    nav ul {
+        width: 100%;
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .active {
+        display: block;
+    }
+  
+}﻿
 /*  For Video Box */
 .Rvideo-box
 	{
@@ -36,3 +97,43 @@
 	padding-top: 110px;
 	padding-bottom: 110px;
 	}
+
+  /* For Card */
+  .card{
+    background-color: #f4f3f3;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin-top: 20px;
+    display: inline-grid;
+  }
+  .card-background{
+    background: linear-gradient(to right, #009688, #4caf50);
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card-image{
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: 100px;
+    border: 6px solid #f4f3f3;
+  }
+  .card-info{
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+   ul{
+    list-style: disc;
+    padding-left: 40px;
+  }
+  li{
+    margin: 5px 0;
+  }
