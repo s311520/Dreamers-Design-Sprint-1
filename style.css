@@ -185,3 +185,7 @@ a{
 .footer-social ul li a i{
   line-height: 50px;
 }
+.footer-social ul li:hover{
+    background: #b8b894;
+    transform: scale(1.4) rotate(10deg);
+  }
