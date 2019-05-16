@@ -211,3 +211,6 @@ a{
   color: #fff;
   text-transform: uppercase;
 }
+.footer-menu ul li a:hover{
+  color: #b8b894;
+}
