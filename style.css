@@ -214,3 +214,10 @@ a{
 .footer-menu ul li a:hover{
   color: #b8b894;
 }
+.footer-bottom{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: lightblue;
+  padding: 8px;
+}
