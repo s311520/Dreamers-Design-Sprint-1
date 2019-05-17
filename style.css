@@ -1,8 +1,16 @@
+/* For Content */
+.content{
+  margin-left: 190px; /* Same as the width of the sidenav */ /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
 /*For New navigation Bar */
 nav {
     width: 100%;
     background: linear-gradient(to right, #009688, #4caf50);
-
 }
 
 nav ul {
@@ -40,11 +48,7 @@ nav ul li a {
     font-size: 30px;
     display: none;
 }
-@media (max-width:760px){
-  .sidebarnav{
-    display: none;
-  }
-}
+
 @media (max-width:760px) {
     .toggle {
         display: block;
@@ -63,32 +67,36 @@ nav ul li a {
     .active {
         display: block;
     }
-
-
-
+    .card{
+      margin-left: auto;
+    }
 }﻿
+
+/* For Header and Search */
+.logo{
+  float: left;
+  text-align: left;
+}
 /*  For Video Box */
 .Rvideo-box
 	{
 	background-color: #000000;
-	text-align: center;
-	padding: 0px;
+  padding: 0px;
+	text-align: center
 	margin: 0px auto 0px auto;
-	width: 70%;
+	width: 100%;
+	max-width: 900px;
 	height: auto;
 	border: 1px solid #000000;
-  float: left;
 	}
 
 .Rvideo-box video
 	{
-	width: 67%;
+	width: 100%;
 	height: auto;
 	display: block;
 	padding: 0px;
 	margin: 0px;
-  float: left;
-  margin-top: 20px;
 	}
 
 .Rvideo-caption
@@ -107,84 +115,65 @@ nav ul li a {
 	padding-bottom: 110px;
 	}
 
-  /* For Card */
+/* For Card */
+
+.card{
+  background-color: #f4f3f3;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin-top: 20px;
+  display: inline-grid;
+  margin-left: 40px;
+}
+.card:hover{
+  box-shadow: -1px 10px 29px 0px rgba(0,0,0,0.8);
+}
+.card-background{
+  background: linear-gradient(to right, #009688, #4caf50);
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-image{
+  border-radius: 50%;
+  width: 120px;
+  height: auto;
+  position: relative;
+  top: 30px;
+  border: 6px solid #f4f3f3;
+}
+.card-info{
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media (max-width:400px){
   .card{
-    background-color: #f4f3f3;
     width: auto;
-    height: auto;
-    border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin-top: 20px;
-    display: inline-grid;
+    margin:auto;
+    margin-top: 15px;
   }
-  .card-background{
-    background: linear-gradient(to right, #009688, #4caf50);
-    height: 160px;
-    width: 100%;
-    border-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  .card-image{
-    border-radius: 50%;
-    width: 120px;
-    height: auto;
-    position: relative;
-    top: 100px;
-    border: 6px solid #f4f3f3;
-  }
-  .card-info{
-    margin-top: 50px;
-    margin-left: 15px;
-  }
-   ul{
-    list-style: disc;
-    padding-left: 40px;
-  }
-  li{
-    margin: 5px 0;
-  }
-
-
-  /*css for footer*/
-
-
-  *{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
 }
-a{
-  text-decoration: none;
-  outline: none;
-}
-
-.top {
-  display: flex;
-  justify-content: space-between;
-}
-
-.intro {
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-body {
-
-  margin: 0;
-  font-family: "Lato", sans-serif;
-}
-
+/* For sidebar */
 .sidebarnav  {
-  margin-top: 10px;
-  padding: 0;
-  width: 410px;
+  padding-top: 10px;
+  width: 180px;
+  height: 400px;
+  z-index: 1;
+  top: 10;
+  left: 1;
+  overflow-x: hidden;
   background-color: #f1f1f1;
-  height: 70%;
+  position: absolute;
 
 }
+
 
 .sidebarnav a {
   display: block;
@@ -203,106 +192,4 @@ body {
   color: white;
   text-align: center;
   border: 80px;
-}
-
-
-.footer-main{
-  width: 100%;
-  height: auto;
-  margin-top: 25px;
-  background: #4caf50;
-  padding: 20px 0px;
-  margin-bottom: 30px;
-}
-.footer-social{
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-.footer-social ul{
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-.footer-social ul li{
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 0px 10px;
-  border-radius: 100%;
-  background: lightblue;
-}
-.footer-social ul li a{
-  color: #272727;
-  font-size: 25px;
-  display: block;
-}
-.footer-social ul li a i{
-  line-height: 50px;
-}
-.footer-social ul li:hover{
-    background: #b8b894;
-    transform: scale(1.4) rotate(10deg);
-  }
-  .footer-menu{
-  width: 100%;
-  height: auto;
-  margin: auto;
-  margin-top: 20px;
-}
-.footer-menu ul{
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-.footer-menu ul li{
-  display: inline-block;
-  margin: 0px 15px;
-}
-.footer-menu ul li a{
-  font-family: arial;
-  font-size: 14px;
-  font-weight:600;
-  color: #fff;
-  text-transform: uppercase;
-}
-.footer-menu ul li a:hover{
-  color: #b8b894;
-}
-.footer-bottom{
-  width: 100%;
-  height: auto;
-  margin: auto;
-  background: lightblue;
-  padding: 8px;
-}
-.footer-bottom p{
-  font-family: arial;
-  font-size:14px;
-  text-align: center;
-  color: black;
-  font-weight: 600;
-}
-.footer-bottom p a{
-  color: blue;
-}
-.footer-main{
-  position: bottom;
-  bottom:30;
-  width:100%;
-  height:120px;
-}
-.footer-bottom{
-  position: bottom;
-  bottom: -890px;
-  width:100%;
-  height:20px;
-}
-.footer-bottom p a:hover{
-  color: ##b8b894;
-}
-@media (max-width:760px){
-  .footer-main{
-
-  }
 }
