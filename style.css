@@ -272,7 +272,7 @@ color: #b8b894;
 
 .footer-main{
 position:absolute;
-bottom: 0;
+margin-bottom: 0px;
 width:100%;
 height:120px;
 }
