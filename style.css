@@ -207,7 +207,7 @@ nav ul li a {
 }
 
 @media only screen and (device-width: 768px) {
-  .sidebar{
+  .sidebarnav{
     height: 700px;
   }
   .header form {
@@ -215,7 +215,7 @@ nav ul li a {
   }
 }
 @media (max-width:760px) {
-    .sidebar {
+    .sidebarnav {
         display: none;
         position: inherit;
         width: 100%;
