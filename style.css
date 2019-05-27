@@ -3,6 +3,15 @@
   margin-left: 190px; /* Same as the width of the sidenav */ /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
+.content h1{
+  font-size: 60px;
+}
+.content h2{
+  font-size: 40px;
+}
+.content p{
+  font-size: 25px;
+}
 a{
   text-decoration: none;
   color: black;
@@ -36,7 +45,7 @@ nav ul li a {
     width: 100%;
     padding: 10px 20px;
     background-color: #001f44;
-    text-align: left;
+    text-align: right;
     box-sizing: border-box;
     color: #fff;
     font-size: 30px;
@@ -69,15 +78,13 @@ nav ul li a {
 /* For Header and Search */
 .logo{
   float: left;
-  text-align: left;
 }
 /*  For Video Box */
 .Rvideo-box
 	{
 	background-color: #000000;
   padding: 0px;
-	text-align: center
-	margin: 0px auto 0px auto;
+	text-align: center;
 	width: 100%;
 	max-width: 900px;
 	height: auto;
@@ -155,6 +162,18 @@ nav ul li a {
   }
 }
 /* For sidebar */
+.menu {
+    width: 100%;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #009688, #4caf50);
+    text-align: left;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+    margin-top: 15px;
+}
+
 .sidebarnav  {
   padding-top: 10px;
   width: 180px;
@@ -168,12 +187,12 @@ nav ul li a {
 
 }
 
-
 .sidebarnav a {
   display: block;
   color: black;
   padding: 10px;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .sidebarnav a:hover:not(.active) {
@@ -188,9 +207,46 @@ nav ul li a {
   border: 80px;
 }
 
+@media only screen and (device-width: 768px) {
+  .sidebar{
+    height: 700px;
+  }
+  .header form {
+    margin-left: auto;
+  }
+}
+@media (max-width:760px) {
+    .sidebar {
+        display: none;
+        position: inherit;
+        width: 100%;
+    }
+    .menu {
+        display: block;
+    }
+    .content{
+      margin: auto;
+    }
+    .header form {
+      margin-left: auto;
+    }
+    .header{
+      display: block;
+    }
+    .content h1{
+      font-size: 35px;
+    }
+    .content h2{
+      font-size: 25px;
+    }
+    .card{
+      width: auto;
+      margin-left: 0px;
+    }
+}
+
 
 /*css for footer*/
-
 
 *{
 margin: 0px;
