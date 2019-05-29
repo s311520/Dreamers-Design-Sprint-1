@@ -86,6 +86,44 @@ nav ul li a {
   margin-left: 800px;
   margin-top: 30px;
 }
+
+/*search*/
+
+.search {
+  margin-top: 30px;
+  margin-left: 300px;
+  width: 30%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #003d4f;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #003d4f;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #003d4f;
+  background: #003d4f;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 /*  For Video Box */
 .Rvideo-box
 	{
@@ -248,6 +286,10 @@ nav ul li a {
     .card{
       width: auto;
       margin-left: 0px;
+    }
+    .search{
+      margin: 0;
+      width: 100%;
     }
 }
 
