@@ -1,247 +1,35 @@
-
-html {
-    position: relative;
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-body{
-  font-family: sans-serif;
-  background: #FFFFFC;
-  padding-left: 25px;
-  padding-right: 25px;
-
-}
-
-input[type=text] {
-  width: 180px;
-  float: right;
-  margin-top: -60px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 15px;
+ body {
+   background-color: #DCDCDC;
+ }
+.card1 {
   background-color: white;
-  background-image: url('https://blog.lendingloop.ca/wp-content/uploads/2017/05/material-icon-2155442_960_720.png');
-  background-position: -22px;
-  background-repeat: no-repeat;
-  background-size: 85px;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.3s ease-in-out;
-  transition: width 0.3s ease-in-out;
+  height: auto;
+  transition: 0.1s;
+  width: 400px;
+  border-radius:8px 8px 8px 8px;
+  border-top: 4px solid green;
+  border-left: 2px solid darkblue;
 }
 
-input[type=text]:focus {
-  width: 60%;
+img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 5px;
+  padding: 2px;
 }
-
-.CDUlogo{
-    position: relative;
-    width:25%;
-    margin-top:5px;
-  }
-
-
-li{
-  display: inline;
-}
-
-.nav_menu{
-  float: right;
-}
-
-.nav_menu a{
-  color: black;
-  padding: 15px 30px;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-
-.nav_menu a ul{
-  margin: 0;
-  padding: 0;
+.container1 {
+  padding: 5px 16px;
+  text-align: left;
   display: flex;
 }
 
-
-
-.nav_menu a ul li{
-  height: 30px;
-  line-height: 50px;
-  display: block;
-}
-
-.nav_menu a:hover{
-  background-color: #42858C;
-}
-
-.nav_menu li a:hover:not(.active) {
-  text-decoration: none;
-  background-color: #0F95A0;
-  color: white;
-  transition: 0.6s ease
-}
-.nav_menu li:hover
-.nav_menu li a.active {
-  color: #42858C;
-  background-color: #0F95A0;
-}
-
-
-.menu_icon{
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
-  display: none;
-  float: left;
-}
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-
-@media only screen and (max-width: 750px) {
-
-  .nav_menu{
-    display: none;
-    background: #FFFFFC;
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    top: 50px;
-    left: 0;
-    transition: 0.5s;
-   }
-
-   .nav_menu ul li{
-     display: block;
-     text-align: center;
-     border: 1px solid gray;
-     padding: 15px 30px;
-     margin-bottom: 10px
-
-   }
-
-
-
-    .menu_icon{
-    display: block;
-  }
-
-    input[type=text]{
-    width: 0px;
-    margin-top: -10px;
-
-  }
-
-    input[type=text]:focus {
-    width: 30%;
-  }
-    .card {
-    width: 350px;
-  }
-    .card img{
-    width: 340px
-  }
-    .CDUlogo{
-    width: 50%;
-    left: 110px;
-    margin-bottom: 20px;
-  }
-    h1{
-    margin-top: 50px;
-  }
-    body{
-    padding: 7px;
-}
-
-/*css for footer*/
-
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-a{
-  text-decoration: none;
-  outline: none;
-}
-.footer_main{
-  width: 100%;
-  height: auto;
-  margin-top: 25px;
-  background: #4caf50;
-  padding: 20px 0px;
-  margin-bottom: 30px;
-}
-.footer_social{
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-.footer_social ul{
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-.footer_social ul li{
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 0px 10px;
-  border-radius: 100%;
-  background: lightblue;
-}
-.footer_social ul li a{
-  color: #272727;
-  font-size: 25px;
-  display: block;
-}
-.footer_social ul li a i{
-  line-height: 50px;
-}
-.footer_social ul li:hover{
-  background: #b8b894;
-  transform: scale(1.4) rotate(10deg);
-}
-.footer_menu{
-  width: 100%;
-  height: auto;
-  margin: auto;
-  margin-top: 20px;
-}
-.footer_menu ul{
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-.footer_menu ul li{
-  display: inline-block;
-  margin: 0px 15px;
-}
-.footer_menu ul li a{
-  font-family: arial;
-  font-size: 14px;
-  font-weight:600;
-  color: #fff;
-  text-transform: uppercase;
-}
-.footer_menu ul li a:hover{
-  color: #b8b894;
-}
-
-.footer_main{
-  position:absolute;
-  margin-bottom: 0px;
-  width:100%;
-  height:120px;
-}
-
-@media (max-width:760px){
-.footer_main{
-
-}
+.boxed {
+  border: 3px solid ;
+  margin-left: 10px;
+  padding-left: 10px;
 }

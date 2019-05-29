@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,46 +11,86 @@
 </head>
 <body>
 
-<div id="header">
+<div class="header">
   <img src="logo.jpg" width="250" height="80" alt="Charles Darwin University" />
-  <form id="srch" method="get" action="http://www.google.com">
-    <input type="text" class="tftextinput" name="q" size="21" maxlenght="120"><input type="submit" value="Search" class="tfbutton"></form>
+  <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
   </div><br>
   <nav>
     <div class="toggle">
-      <i onclick="fun()"class="fa fa-bars" aria-hidden="true"></i>
+      <i style="font-size:30px;cursor:pointer" onclick="fun()"> MENU &#9776; </i>
     </div>
     <ul id="main">
       <li><a href="#">CDU Home</a></li>
-      <li><a href="#">Study with CDU</a></li>
       <li><a href="#">Courses</a></li>
-      <li><a href="#">About CDU</a></li>
-      <li><a href="#">Learnline Login</a></li>
+      <li><a href="#">Faculties & Schools</a></li>
+      <li><a href="#">Learning & Teaching</a></li>
+      <li><a href="#">Library</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Site Map</a></li>
+      <li><a href="#">Learnline &#128272;</a></li>
     </ul>
   </nav>
-  <div class="menu">
- <i style="font-size:30px;cursor:pointer" onclick="menu()">&#9776; EXPLORE MORE</i>
- </div>
- <div class="sidebarnav" id="data">
-   <a class="active" href="#">Academic Assignments</a>
-   <a href="#">Academic Writing</a>
-   <a href="#">Critical Thinking</a>
-   <a href="#">Referencing</a>
-   <a href="#">Exams</a>
-   <a href="#">Lectures & Tutorials</a>
-   <a href="#">Note Making</a>
-   <a href="#">Research & Reading</a>
-   <a href="#">Managing your Studies</a>
-   <a href="#">Videos & Interactive</a>
- </div>
+    <div class="menu">
+  <i style="font-size:30px;cursor:pointer" onclick="menu()">&#9776; EXPLORE MORE</i>
+  </div>
+  <div class="sidebar" id="data">
+    <a class="active" href="#">STUDY SKILLS HOME</a>
+    <a href="#">Academic Writing</a>
+    <a href="#">Critical Thinking</a>
+    <a href="#">Referencing</a>
+    <a href="#">Exams</a>
+    <a href="#">Lectures & Tutorials</a>
+    <a href="#">Note Making</a>
+    <a href="#">Research & Reading</a>
+    <a href="#">Managing your Studies</a>
+    <a href="#">Videos & Interactive</a>
+  </div>
 
-<div class="content">
+<div class="lang_content">
+  <div class="card1">
 
-<h2> Language and culture </h2>
-  
-  </body>
+    <h3>Inclusive Language</h3>
+    <img src="culture.jpg" style="width:100%" alt="Alps" class="img">
+      <h3><b>Language and Culture</b></h3>
+      <ul>
+      <li>Language as the most important symbolic aspect of culture</li>
+      <li>Language thought patterns behind the language of communication></li>
+      <li>Culture defines language and language shapes culture.</li>
+    </ul>
+    </div>
+<div class="container1">
+    <div class="boxed">
+      <h2>Examples and Relations<h2>
+      <img src="culture2.jpg" class="img1">
+    </div>
+  </div>
 </div>
+  <div class="footer-main">
+  <div class="footer-social">
+    <ul>
+      <li><a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+      <li><a href="https://www.linkedin.com" target="blank"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com" target="blank"><i class="fab fa-twitter-square"></i></a></li>
+    </ul>
+  </div>
+  <div class="footer-menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Authorised By: ALLSP</a></li>
+      <li><a href="#">Last Update</a></li>
+      <li><a href="#">ABN</a></li>
+      <li><a href="#">Copyright ©</a></li>
+    </ul>
+  </div>
+  </div>
+  <script type="text/javascript" src="mvp.js"></script>
 
 
-
+</body>
 </html>
