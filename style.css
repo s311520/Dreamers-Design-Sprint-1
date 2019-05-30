@@ -414,7 +414,7 @@ color: #b8b894;
 @media (max-width:760px) {
   .slider{
    margin: auto;
-   height: auto;
+   height: 230px;
    width: auto;
   }
   .slider img{
