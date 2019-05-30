@@ -1,4 +1,4 @@
-/* For Content */
+ /* For Content */
 .content{
   margin-left: 260px; /* Same as the width of the sidenav */ /* Increased text to enable scrolling */
   padding: 0px 10px;
@@ -504,19 +504,23 @@ img {
   padding: 2px;
 }
 .lang_content{
-  display: inline-flex;
-  margin-left:270px;
+  display: -webkit-box;
+  margin-left:300px;
+  margin-bottom: 40px; 
+
 }
 .container1 {
-  margin:10px;
+  margin:0px;
   padding: 5px 16px;
   text-align: left;
 }
 
 .boxed {
   border: 3px solid ;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 80px;
   padding-left: 10px;
+  width: 400px
 }
 
 .content1 {
@@ -524,5 +528,25 @@ img {
 }
 
 .img1 {
-  height: 510px;
+  height: 440px;
+  width: 380px;
+}
+
+@media (max-width:760px){
+  .lang_content{
+    margin: auto;
+    display: block;
+  }
+  .boxed{
+    margin: auto;
+  }
+  .boxed{
+    width: 340px;
+  }
+  .boxed img{
+    width: 320px;
+  }
+  .card1{
+    width: auto;
+  }
 }
