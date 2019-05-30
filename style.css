@@ -321,9 +321,9 @@ nav ul li a {
 width: 100%;
 height: auto;
 margin-top: 25px;
-background: #4caf50;
+background: #003d4f;
 padding: 20px 0px;
-margin-bottom: 30px;
+margin-bottom: 0px;
 }
 .footer-social{
 width: 100%;
@@ -506,7 +506,7 @@ img {
 .lang_content{
   display: -webkit-box;
   margin-left:300px;
-  margin-bottom: 70px; 
+  margin-bottom: 70px;
 
 }
 .container1 {
